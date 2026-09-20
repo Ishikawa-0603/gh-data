@@ -39,6 +39,6 @@ jobs:
         with:
           name: dist-files
       - name: Output contents of dist
-        run: ls -al dist
+        run: ls -al
       - name: Deploy
         run: echo "Deploying....."
